@@ -1,37 +1,27 @@
-# Riffy
+# Fruitz Nūtz
+## Introduction
+Fruits Nūtz is an app that shows the nutrients in fruits. If you're curious about the different benefits of fruits, one can simply run the name of the fruit into the terminal and details about the fruit will be displayed.
 
-### Introduction
+## APP Logic
 
-Today you're going to make a little node app OF YOUR OWN DESIGN that can take in user input and spit out appropriate output. Because we're all node ninjas now!
+The app will start off by having a directory full of the names of fruits stored.
+userInput() will trigger the return of nutrition based on the parameter of the user input.
 
+## Backend
+As of now the backend will consist of many *if statements* to scan through the data and push out a match.
+I also want to store the many nutrition facts possibly in an array or simply a bunch of console.logs that run after a match is calculated. The backend will have one function 
 
-### Objectives
+## Frontend
+The front end will consist of one function with a single parameter. The backend logic will be tied into at the top with a variable name that's identical to the declared back-end function. One variable will link the user's input.
 
-After completing this assignment, you will be able to:
+## Stretch Goals
+* If possible we can include the backend with another function that can show a plethora of other things. Health benefits, spiritual facts and we could even dive into the origin of a banana. 
 
-* Parse command line text to find the arguments you want.
-* Format those arguments if need be.
-* Use `if` statements to branch your code.
-* Output text back to the user.
-* Keep it all BEAUTIFULLY organized in back and front end files.
+* Surely a second parameter would be added to pinpoint what kind of *extra* facts one would like to see. For example:
+**node fruits.js Banana Origin**
+The second input could call from a library of data that contains origins of different fruit. 
 
-
-### The Basics
-
-You'll be making a node app that uses `getInput` to take in input and `console.log` to provide output. You should have already proposed an app in [the Riffy Proposal stage](https://github.com/ci-wdi-900/riffy-proposal), so... do that one!
-
-We'll be presenting these apps, so put your best foot forward!
-
-
-### Guidelines
-
-* Your content must be [SFW](https://en.wikipedia.org/wiki/Not_safe_for_work).
-* You must have a separate front end and back end. That means, at a minimum a `main.js` file with no app logic, only input/output logic.
-* We'll also be converting that proposal into a proper README for our app. Guidelines on that coming soon, and yes, it is an absolute requirement.
-* If you're done early, come talk to us. We can always suggest ways you can extend your app!
+* I'm not sure, but if we could add a image in the terminal to display the fruit, that would be great.
 
 
-### Tips and Tricks
 
-* Your front end needs to do three things (and three things only!): get the input from the user, feed that input to the back end (possibly calling different back-end functions depending on the shape of the input), and print the answer the back end returns back to the user.
-* If you need a reminder how to use `getInput`, remember that we can use indices to grab different parts of it. Every _space-separated string_ the user writes after `node [filename].js` will be there, _starting at index 0_. So if you need three arguments, they'll be retrievable at `getInput(0)`, `getInput(1)`, and `getInput(2)`.
