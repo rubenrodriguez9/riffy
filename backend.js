@@ -69,16 +69,65 @@ function fruitNut(fruit){
                         ██████████            `
         )
         console.log('')
-        console.log('Calories 60g')
+        console.log('Calories 60')
         console.log('Carbohydrates 11g')     
         console.log('Proteins 1g')     
         console.log('Sugars 12g')     
-        console.log('Sodium 0g')     
-        console.log('Calcium og')     
-        console.log('Fibers 2g')
+        console.log('Sodium 0')     
+        console.log('Calcium .38g')     
+        console.log('Fibers 3g')
         console.log('Contains mostly vitamin C')    
         return ''     
-    }
+    } else if(fruit === 'pear'){
+      console.log(`
+           //
+        ,.//,
+      / . '  '
+     :         :
+    :           :
+   :             :
+  :               :
+ :                 ;
+:                   :
+;                   ;
+;                   ;
+:                   :
+ .                 /
+  '.              /
+    '-._..... _.-'`)
+      console.log('')
+      console.log('Calories 101')
+      console.log('Carbohydrates 27g')     
+      console.log('Proteins 1g')     
+      console.log('Sugars 12g')     
+      console.log('Sodium .18')     
+      console.log('Calcium .38g')     
+      console.log('Fibers 6g')
+      console.log('Contains mostly vitamin C')    
+      return ''
+    } else if(fruit === 'grapes')
+    console.log(`
+          __
+      __ {_/
+      ;_}|| 
+       (_)(_)
+      (_)_)(_)_
+     (_)(_)_)(_)
+      (_)(_))_)
+       (_(_(_)
+        (_)_)
+         (_)
+`)
+        console.log('(Per 100 grams)')
+        console.log('Calories 62g')
+        console.log('Carbohydrates 18g')     
+        console.log('Proteins 1g')     
+        console.log('Sugars 15g')     
+        console.log('Sodium 0g')     
+        console.log('Calcium 0g')     
+        console.log('Fibers 1g')
+        console.log('Contains mostly vitamin C')    
+return ''
 }
 
 module.exports = fruitNut;
