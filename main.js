@@ -1,9 +1,10 @@
-let fruitNut = require('./backend');
+let fruitNoot = require('./backend');
 
 let x = getInput(0)
 
-console.log(fruitNut(x))
-
+if(fruitNoot(x) === undefined){
+  console.log(`Sorry, we don't know that fruit yet`)
+}
 
 
 

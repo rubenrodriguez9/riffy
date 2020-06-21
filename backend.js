@@ -1,7 +1,6 @@
-function fruitNut(fruit){
-    fruit = fruit.toLowerCase();
+function fruitNoot(fruit){
 
-    if(fruit === 'grapefruit'){
+    if(fruit === 'grapefruit' || fruit === 'Grapefruit'){
         console.log(`                  
         __     /,)
    _,-""\`'""-./,
@@ -25,7 +24,7 @@ function fruitNut(fruit){
         console.log('Fibers 2g')     
         console.log('Contains mostly vitamin A & vitamin C')     
         return ""
-    }   else if(fruit === 'apple'){
+    }   else if(fruit === 'apple' || fruit === 'Apple'){
         console.log(`         
             .:'
         __ :'__
@@ -205,7 +204,8 @@ function fruitNut(fruit){
              console.log('Calcium 0g')     
              console.log('Fibers 3g')
              return ''
-      }
+      } 
+
 }
       
-module.exports = fruitNut;
+module.exports = fruitNoot;
