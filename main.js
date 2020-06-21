@@ -1,10 +1,15 @@
-let fruitNoot = require('./backend');
+let fruitNoot = require('./nutrition');
+let history = require('./origin');
 
-let x = getInput(0)
+let fruit = getInput(0);
+let origin = getInput(1);
 
-if(fruitNoot(x) === undefined){
+if(fruit === undefined){
   console.log(`Sorry, we don't know that fruit yet`)
-}
+ } else if(origin === undefined){
+   console.log(fruitNoot(fruit))
+ } else console.log(history(fruit, origin));
+
 
 
 

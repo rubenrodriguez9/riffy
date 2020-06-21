@@ -43,7 +43,7 @@ function fruitNoot(fruit){
         console.log('Fibers 2g')
         console.log('Contains mostly vitamin C')    
         return ''     
-    }  else if(fruit === 'orange'){
+    }  else if(fruit === 'orange' || fruit === 'Orange'){
         console.log(
             `                                                                      
                                                                                         
@@ -77,7 +77,7 @@ function fruitNoot(fruit){
         console.log('Fibers 3g')
         console.log('Contains mostly vitamin C')    
         return ''     
-    } else if(fruit === 'pear'){
+    } else if(fruit === 'pear' || fruit === 'Pear'){
       console.log(`
            //
         ,.//,
@@ -104,7 +104,7 @@ function fruitNoot(fruit){
       console.log('Fibers 6g')
       console.log('Contains mostly vitamin C')    
       return ''
-    } else if(fruit === 'grapes'){
+    } else if(fruit === 'grapes' || fruit === 'Grapes'){
     console.log(`
           __
       __ {_/
@@ -127,7 +127,7 @@ function fruitNoot(fruit){
         console.log('Fibers 1g')
         console.log('Contains mostly vitamin C')    
         return ''
-      } else if(fruit === 'banana'){
+      } else if(fruit === 'banana' || fruit === 'Banana'){
         console.log(`
            
         _     _,#
@@ -144,7 +144,7 @@ function fruitNoot(fruit){
         console.log('Fibers 3g')
         console.log('Contains vitamin B, vitamin C and a great amount of potassium')    
         return ''
-      } else if(fruit === 'strawberry'){
+      } else if(fruit === 'strawberry' || fruit === 'Strawberry'){
         console.log(`
         ____________________________¶
                             ¶¶¶
