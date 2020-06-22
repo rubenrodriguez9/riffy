@@ -204,7 +204,7 @@ function fruitNoot(fruit){
              console.log('Calcium 0g')     
              console.log('Fibers 3g')
              return ''
-      } 
+      }else return 'Please enter a fruit.'
 
 }
       
